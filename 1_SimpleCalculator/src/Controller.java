@@ -69,7 +69,7 @@ public class Controller {
                 break;
             case "AC":
                 result.setText("0.0");
-                expression.setText("SimpleCalculator");
+                expression.setText("...");
                 lastIsNum = true;
                 lastIsEqual = false;
                 lastIsPoint = false;
@@ -89,7 +89,7 @@ public class Controller {
                 break;
             case "=":
                 if (!lastIsEqual) {
-                    if ("SimpleCalculator".equals(expression.getText()))
+                    if ("...".equals(expression.getText()))
                         expression.setText("");
                     expression.setText(expression.getText() + result.getText() + "=");
                     try {

@@ -18,7 +18,7 @@ public class Main extends Application {
 
     @Override
     public void start(Stage stage) throws Exception {
-        stage.setTitle("SimpleCalculator 1.0.0");
+        stage.setTitle("SimpleCalculator");
         Image icon = new Image(Objects.requireNonNull(getClass().getResourceAsStream("image/icon.png")));
         stage.getIcons().add(icon);
         stage.setResizable(false);
