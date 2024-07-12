@@ -105,6 +105,8 @@ public class Controller {
             case "About":
                 Stage stage = new Stage();
                 stage.setTitle("SimpleCalculator 1.0.0 - About Calculator");
+                Image icon = new Image(Objects.requireNonNull(getClass().getResourceAsStream("image/icon.png")));
+                stage.getIcons().add(icon);
                 stage.setResizable(false);
                 try {
                     Pane load = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("About.fxml")));
