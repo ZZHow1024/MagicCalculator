@@ -1,3 +1,5 @@
+package com.zzhow.magiccalculator;
+
 import javafx.event.Event;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -105,7 +107,7 @@ public class Controller {
             case "About":
                 Stage stage = new Stage();
                 stage.setTitle("MagicCalculator 1.0.0 - About");
-                Image icon = new Image(Objects.requireNonNull(getClass().getResourceAsStream("image/icon.png")));
+                Image icon = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/image/icon.png")));
                 stage.getIcons().add(icon);
                 stage.setResizable(false);
                 try {

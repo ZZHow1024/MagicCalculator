@@ -1,3 +1,5 @@
+package com.zzhow.magiccalculator;
+
 /**
  * @author ZZHow
  * @date 2024/7/12
