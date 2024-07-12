@@ -7,6 +7,7 @@ public class Calculate {
     public static final int SUBTRACT = 1;
     public static final int MULTIPLY = 2;
     public static final int DIVIDE = 3;
+    public static final int MOD = 4;
 
     public double cal(String expression) {
         expression = expression.substring(0, expression.length() - 2);
@@ -30,9 +31,15 @@ public class Calculate {
             double a = Double.parseDouble(split[0]);
             double b = Double.parseDouble(split[1]);
             return operate(a, b, DIVIDE);
+        } else if (expression.contains("%")) {
+            String[] split = expression.split("%");
+            double a = Double.parseDouble(split[0]);
+            double b = Double.parseDouble(split[1]);
+            return operate(a, b, MOD);
         } else
             return Double.parseDouble(expression);
     }
+
 
     public double operate(double a, double b, int op) {
         return switch (op) {
@@ -40,6 +47,7 @@ public class Calculate {
             case SUBTRACT -> a - b;
             case MULTIPLY -> a * b;
             case DIVIDE -> a / b;
+            case MOD -> a % b;
             default -> 0.0;
         };
     }

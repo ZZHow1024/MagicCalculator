@@ -60,6 +60,7 @@ public class Controller {
             case "-":
             case "×":
             case "÷":
+            case "%":
                 lastIsNum = false;
                 lastIsEqual = false;
                 expression.setText(result.getText() + buttonText);
