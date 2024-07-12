@@ -16,11 +16,6 @@ public class Calculate {
             double a = Double.parseDouble(split[0]);
             double b = Double.parseDouble(split[1]);
             return operate(a, b, ADD);
-        } else if (expression.contains("-")) {
-            String[] split = expression.split("-");
-            double a = Double.parseDouble(split[0]);
-            double b = Double.parseDouble(split[1]);
-            return operate(a, b, SUBTRACT);
         } else if (expression.contains("×")) {
             String[] split = expression.split("×");
             double a = Double.parseDouble(split[0]);
@@ -36,6 +31,11 @@ public class Calculate {
             double a = Double.parseDouble(split[0]);
             double b = Double.parseDouble(split[1]);
             return operate(a, b, MOD);
+        } else if (expression.contains("-")) {
+            String[] split = expression.split("-");
+            double a = Double.parseDouble(split[0]);
+            double b = Double.parseDouble(split[1]);
+            return operate(a, b, SUBTRACT);
         } else
             return Double.parseDouble(expression);
     }
