@@ -1,7 +1,15 @@
 import javafx.event.Event;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
+import javafx.scene.image.Image;
+import javafx.scene.layout.Pane;
+import javafx.stage.Stage;
+
+import java.io.IOException;
+import java.util.Objects;
 
 /**
  * @author ZZHow
@@ -93,6 +101,20 @@ public class Controller {
                     lastIsEqual = true;
                     lastIsPoint = false;
                 }
+                break;
+            case "About":
+                Stage stage = new Stage();
+                stage.setTitle("SimpleCalculator 1.0.0 - About Calculator");
+                stage.setResizable(false);
+                try {
+                    Pane load = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("About.fxml")));
+                    Scene scene = new Scene(load);
+                    stage.setScene(scene);
+                    stage.show();
+                } catch (IOException e) {
+                    System.out.println(e.getMessage());
+                }
+                break;
             default:
                 break;
         }
