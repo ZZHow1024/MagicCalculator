@@ -104,7 +104,7 @@ public class Controller {
                 break;
             case "About":
                 Stage stage = new Stage();
-                stage.setTitle("SimpleCalculator 1.0.0 - About Calculator");
+                stage.setTitle("MagicCalculator 1.0.0 - About");
                 Image icon = new Image(Objects.requireNonNull(getClass().getResourceAsStream("image/icon.png")));
                 stage.getIcons().add(icon);
                 stage.setResizable(false);

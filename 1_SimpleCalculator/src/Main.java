@@ -18,11 +18,11 @@ public class Main extends Application {
 
     @Override
     public void start(Stage stage) throws Exception {
-        stage.setTitle("SimpleCalculator");
+        stage.setTitle("MagicCalculator");
         Image icon = new Image(Objects.requireNonNull(getClass().getResourceAsStream("image/icon.png")));
         stage.getIcons().add(icon);
         stage.setResizable(false);
-        Pane load = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("SimpleCalculator.fxml")));
+        Pane load = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("MagicCalculator.fxml")));
         Scene scene = new Scene(load);
         stage.setScene(scene);
         stage.show();
