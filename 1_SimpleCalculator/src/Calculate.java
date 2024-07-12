@@ -10,7 +10,7 @@ public class Calculate {
     public static final int MOD = 4;
 
     public double cal(String expression) {
-        expression = expression.substring(0, expression.length() - 2);
+        expression = expression.substring(0, expression.length() - 1);
         if (expression.contains("+")) {
             String[] split = expression.split("\\+");
             double a = Double.parseDouble(split[0]);
