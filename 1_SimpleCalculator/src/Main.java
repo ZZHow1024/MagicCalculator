@@ -18,6 +18,7 @@ public class Main extends Application {
     @Override
     public void start(Stage stage) throws Exception {
         stage.setTitle("SimpleCalculator 1.0.0");
+        stage.setResizable(false);
         Pane load = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("SimpleCalculator.fxml")));
         Scene scene = new Scene(load);
         stage.setScene(scene);

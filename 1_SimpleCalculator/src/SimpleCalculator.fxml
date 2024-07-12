@@ -22,7 +22,7 @@
             </Label>
          </children>
       </AnchorPane>
-      <GridPane gridLinesVisible="true" layoutY="113.0" prefHeight="257.0" prefWidth="234.0">
+      <GridPane gridLinesVisible="true" layoutY="113.0" prefHeight="257.0" prefWidth="234.0" style="-fx-background-color: black;">
         <columnConstraints>
           <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
           <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
@@ -37,35 +37,88 @@
           <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
         </rowConstraints>
          <children>
-            <Button mnemonicParsing="false" prefHeight="52.0" prefWidth="60.0" style="-fx-background-color: #454443;" text="+/-" textFill="WHITE" GridPane.columnIndex="1" />
-            <Button mnemonicParsing="false" prefHeight="52.0" prefWidth="60.0" style="-fx-background-color: #454443;" text="AC" textFill="WHITE" />
-            <Button mnemonicParsing="false" prefHeight="52.0" prefWidth="60.0" style="-fx-background-color: #454443;" text="\%" textFill="WHITE" GridPane.columnIndex="2" />
-            <Button mnemonicParsing="false" prefHeight="52.0" prefWidth="60.0" style="-fx-background-color: #FE9F0B;" text="÷" textFill="WHITE" GridPane.columnIndex="3" />
-            <Button mnemonicParsing="false" prefHeight="52.0" prefWidth="60.0" style="-fx-background-color: #646362;" text="7" textFill="WHITE" GridPane.rowIndex="1" />
-            <Button mnemonicParsing="false" prefHeight="52.0" prefWidth="60.0" style="-fx-background-color: #646362;" text="8" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="1" />
-            <Button mnemonicParsing="false" prefHeight="52.0" prefWidth="60.0" style="-fx-background-color: #646362;" text="9" textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="1" />
-            <Button mnemonicParsing="false" prefHeight="52.0" prefWidth="60.0" style="-fx-background-color: #FE9F0B;" text="×" textFill="WHITE" GridPane.columnIndex="3" GridPane.rowIndex="1" />
-            <Button mnemonicParsing="false" prefHeight="52.0" prefWidth="60.0" style="-fx-background-color: #646362;" text="4" textFill="WHITE" GridPane.rowIndex="2" />
-            <Button mnemonicParsing="false" prefHeight="52.0" prefWidth="60.0" style="-fx-background-color: #646362;" text="5" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="2" />
-            <Button mnemonicParsing="false" prefHeight="52.0" prefWidth="60.0" style="-fx-background-color: #646362;" text="6" textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="2" />
-            <Button mnemonicParsing="false" prefHeight="52.0" prefWidth="60.0" style="-fx-background-color: #FE9F0B;" text="-" textFill="WHITE" GridPane.columnIndex="3" GridPane.rowIndex="2" />
-            <Button mnemonicParsing="false" prefHeight="52.0" prefWidth="60.0" style="-fx-background-color: #646362;" text="1" textFill="WHITE" GridPane.rowIndex="3" />
-            <Button mnemonicParsing="false" prefHeight="52.0" prefWidth="60.0" style="-fx-background-color: #646362;" text="2" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="3" />
-            <Button mnemonicParsing="false" prefHeight="52.0" prefWidth="60.0" style="-fx-background-color: #646362;" text="3" textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="3" />
-            <Button mnemonicParsing="false" prefHeight="52.0" prefWidth="60.0" style="-fx-background-color: #FE9F0B;" text="+" textFill="WHITE" GridPane.columnIndex="3" GridPane.rowIndex="3" />
-            <Button mnemonicParsing="false" prefHeight="52.0" prefWidth="60.0" style="-fx-background-color: #646362;" text="00" textFill="WHITE" GridPane.rowIndex="4">
+            <Button mnemonicParsing="false" prefHeight="52.0" prefWidth="60.0" style="-fx-background-color: #454443;" text="+/-" textFill="WHITE" GridPane.columnIndex="1">
                <font>
-                  <Font size="12.0" />
-               </font>
-            </Button>
-            <Button mnemonicParsing="false" prefHeight="52.0" prefWidth="60.0" style="-fx-background-color: #646362;" text="0" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="4" />
-            <Button mnemonicParsing="false" prefHeight="52.0" prefWidth="60.0" style="-fx-background-color: #646362;" text="." textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="4" />
-            <Button mnemonicParsing="false" prefHeight="52.0" prefWidth="60.0" style="-fx-background-color: #FE9F0B;" text="=" textFill="WHITE" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+                  <Font size="20.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" prefHeight="52.0" prefWidth="60.0" style="-fx-background-color: #454443;" text="AC" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" prefHeight="52.0" prefWidth="60.0" style="-fx-background-color: #454443;" text="\%" textFill="WHITE" GridPane.columnIndex="2">
+               <font>
+                  <Font size="20.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" prefHeight="52.0" prefWidth="60.0" style="-fx-background-color: #FE9F0B;" text="÷" textFill="WHITE" GridPane.columnIndex="3">
+               <font>
+                  <Font size="20.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" prefHeight="52.0" prefWidth="60.0" style="-fx-background-color: #646362;" text="7" textFill="WHITE" GridPane.rowIndex="1">
+               <font>
+                  <Font size="20.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" prefHeight="52.0" prefWidth="60.0" style="-fx-background-color: #646362;" text="8" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <font>
+                  <Font size="20.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" prefHeight="52.0" prefWidth="60.0" style="-fx-background-color: #646362;" text="9" textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="1">
+               <font>
+                  <Font size="20.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" prefHeight="52.0" prefWidth="60.0" style="-fx-background-color: #FE9F0B;" text="×" textFill="WHITE" GridPane.columnIndex="3" GridPane.rowIndex="1">
+               <font>
+                  <Font size="20.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" prefHeight="52.0" prefWidth="60.0" style="-fx-background-color: #646362;" text="4" textFill="WHITE" GridPane.rowIndex="2">
+               <font>
+                  <Font size="20.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" prefHeight="52.0" prefWidth="60.0" style="-fx-background-color: #646362;" text="5" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <font>
+                  <Font size="20.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" prefHeight="52.0" prefWidth="60.0" style="-fx-background-color: #646362;" text="6" textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="2">
+               <font>
+                  <Font size="20.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" prefHeight="52.0" prefWidth="60.0" style="-fx-background-color: #FE9F0B;" text="-" textFill="WHITE" GridPane.columnIndex="3" GridPane.rowIndex="2">
+               <font>
+                  <Font size="20.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" prefHeight="52.0" prefWidth="60.0" style="-fx-background-color: #646362;" text="1" textFill="WHITE" GridPane.rowIndex="3">
+               <font>
+                  <Font size="20.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" prefHeight="52.0" prefWidth="60.0" style="-fx-background-color: #646362;" text="2" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="3">
+               <font>
+                  <Font size="20.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" prefHeight="52.0" prefWidth="60.0" style="-fx-background-color: #646362;" text="3" textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="3">
+               <font>
+                  <Font size="20.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" prefHeight="52.0" prefWidth="60.0" style="-fx-background-color: #FE9F0B;" text="+" textFill="WHITE" GridPane.columnIndex="3" GridPane.rowIndex="3">
+               <font>
+                  <Font size="20.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" prefHeight="52.0" prefWidth="60.0" style="-fx-background-color: #646362;" text="About" textFill="WHITE" GridPane.rowIndex="4" />
+            <Button mnemonicParsing="false" prefHeight="52.0" prefWidth="60.0" style="-fx-background-color: #646362;" text="0" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="4">
+               <font>
+                  <Font size="20.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" prefHeight="52.0" prefWidth="60.0" style="-fx-background-color: #646362;" text="." textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="4">
+               <font>
+                  <Font size="20.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" prefHeight="52.0" prefWidth="60.0" style="-fx-background-color: #FE9F0B;" text="=" textFill="WHITE" GridPane.columnIndex="3" GridPane.rowIndex="4">
+               <font>
+                  <Font size="20.0" />
+               </font></Button>
          </children>
       </GridPane>
       <AnchorPane layoutY="370.0" prefHeight="22.0" prefWidth="234.0">
          <children>
-            <Label alignment="CENTER" prefHeight="22.0" prefWidth="234.0" style="-fx-background-color: #646362;" text="ZZHow.com" textAlignment="CENTER" textFill="WHITE" />
+            <Label alignment="CENTER" prefHeight="22.0" prefWidth="234.0" style="-fx-background-color: #646362;" text="ZZHow" textAlignment="CENTER" textFill="WHITE" />
          </children>
       </AnchorPane>
    </children>
