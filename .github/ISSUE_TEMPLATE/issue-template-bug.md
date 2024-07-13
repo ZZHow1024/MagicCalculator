@@ -1,6 +1,6 @@
 ---
 name: Bug Report ｜ 错误反馈
-about: Create a bug report ｜ 创建一个bug反馈
+about: Create a "Bug Report" ｜ 创建一个"bug反馈"
 title: ''
 labels: ["bug"]
 assignees: ''
