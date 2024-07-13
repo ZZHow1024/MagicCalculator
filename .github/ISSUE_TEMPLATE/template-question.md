@@ -15,3 +15,5 @@ assignees: ''
 ### MagicCalculator version ｜ MagicCalculator 版本
 
 ### Operating system version ｜ 操作系统版本
+
+### Screenshot ｜ 截图
