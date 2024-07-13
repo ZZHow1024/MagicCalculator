@@ -1,6 +1,6 @@
 # [Java Project]MagicCalculator(English)
 
-[**中文说明**](https://github.com/ZZHow1024/TankGame_Java/blob/main/README.md)
+[**中文说明**](README.md)
 
 Small project to learn JavaFX
 
