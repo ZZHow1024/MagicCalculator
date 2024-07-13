@@ -1,6 +1,9 @@
 ---
-类型 type: Question Exchange 问题交流
-标签 labels: ["question"]
+name: Question Exchange ｜ 问题交流
+about: Create a "Question Exchange" ｜ 创建一个“问题交流”
+title: ''
+labels: ["question"]
+assignees: ''
 ---
 
 <!-- 请填写以下这些问题。 | Please fill in these questions. -->
