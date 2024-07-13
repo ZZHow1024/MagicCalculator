@@ -1,6 +1,9 @@
 ---
-类型 type: Bug Report 错误反馈
-标签 labels: ["bug"]
+name: Bug Report ｜ 错误反馈
+about: Create a bug report ｜ 创建一个bug反馈
+title: ''
+labels: ["bug"]
+assignees: ''
 ---
 
 <!-- 请填写以下这些问题。 | Please fill in these questions. -->
