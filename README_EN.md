@@ -22,15 +22,16 @@ https://github.com/ZZHow1024/MagicCalculator/releases
 
 ## **Instructions for use**
 
-- Determine the operating system you are using
-    - Windows:
-        - Select .zip package/.exe installation package/.msi installation package
+- Determine the operating system you are using.
     - Linux:
-        - Select .deb installation package/ .rpm installation package
-    - macOS：
-        - Select .dmg disk image/ .pkg installation package
+        - Select .deb installation package/ .rpm installation package.
+    - macOS:
+        - Determine the chipset of your Mac (Apple Silicon / Intel).
+        - Select .dmg disk image/ .pkg installation package.
+    - Windows:
+        - Select .zip package/.exe installation package/.msi installation package.
 - Download the corresponding file.
-- Windows users can directly run the .exe executable program in the .zip compressed package or select the .exe installation package and .msi installation package to perform the installation operation. Linux and macOS users need to perform the installation operation before running
+- Linux and macOS users need to perform the installation operation before running. Windows users can directly run the .exe executable program in the .zip compressed package or select the .exe installation package and .msi installation package to perform the installation operation.
 
 ---
 

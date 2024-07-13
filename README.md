@@ -22,15 +22,16 @@ https://github.com/ZZHow1024/MagicCalculator/releases
 
 ## 使用说明
 
-- 确定您使用的操作系统
-    - Windows：
-        - 选择 .zip压缩包/.exe安装包/.msi安装包
+- 确定您使用的操作系统。
     - Linux：
-        - 选择 .deb安装包/.rpm安装包
+        - 选择 .deb安装包 / .rpm安装包。
     - macOS：
-        - 选择 .dmg磁盘镜像/.pkg安装包
-- 下载对应的文件
-- Windows 可直接运行 .zip 压缩包中的 .exe 可执行程序或选择 .exe 安装包与 .msi 安装包执行安装操作，Linux 和 macOS 需要执行安装操作后再运行
+        - 确定您使用的 Mac 的芯片(Apple Silicon / Intel)。
+        - 选择 .dmg磁盘镜像 / .pkg安装包。
+    - Windows：
+        - 选择 .zip压缩包 / .exe安装包 / .msi安装包。
+- 下载对应的文件。
+- Linux 和 macOS 需要执行安装操作后再运行，Windows 可直接运行 .zip 压缩包中的 .exe 可执行程序或选择 .exe 安装包与 .msi 安装包执行安装操作。
 
 ---
 
