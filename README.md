@@ -1,6 +1,6 @@
 # [Java项目]神奇计算器_MagicCalculator（中文说明）
 
-[**English**](https://github.com/ZZHow1024/TankGame_Java/blob/main/README_EN.md)
+[**English**](README_EN.md)
 
 学习 JavaFX 的小项目
 
