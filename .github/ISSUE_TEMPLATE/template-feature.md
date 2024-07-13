@@ -1,6 +1,9 @@
 ---
-类型 type: Desired functionality 期望的功能
-标签 labels: ["enhancement"]
+name: Desired functionality ｜ 期望的功能
+about: Tell us what features you would like ｜ 告诉我们您期望的功能
+title: ''
+labels: ["enhancement"]
+assignees: ''
 ---
 
 <!-- 请在您提交期望的功能之前，回答以下这些问题。 | Please answer these questions before you submit the desired feature. -->
