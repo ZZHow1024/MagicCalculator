@@ -22,7 +22,7 @@ https://github.com/ZZHow1024/MagicCalculator/releases
 
 ## 使用说明
 
-- 确定您使用的操作系统
+- 确定您使用的操作系统。
     - Linux：
         - 选择 .deb安装包 / .rpm安装包。
     - macOS：
